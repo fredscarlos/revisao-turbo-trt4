@@ -1,0 +1,59 @@
+.vespera-geral {
+  margin-top: 50px;
+}
+
+.vespera-geral h2 {
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.programacao-vespera ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+  gap: 10px 10px;
+}
+
+.programacao-vespera li {
+  text-align: center;
+  font-family: "Poppins";
+  border: solid 1px #0050ff;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.programacao-vespera h3 {
+  font-weight: 500;
+  color: #ffd900;
+}
+
+.programacao-vespera span {
+  color: #00a8ff;
+}
+
+.programacao-btn {
+ margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  gap: 60px;
+}
+
+.programacao-btn p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.programacao-btn img {
+  width: 300px;
+}
+
+.programacao-btn a {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #0050ff;
+  padding: 15px;
+  border-radius: 10px;
+}

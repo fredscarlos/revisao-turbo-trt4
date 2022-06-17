@@ -1,0 +1,52 @@
+.header {
+  padding: 10px 0px 10px 0px;
+}
+
+.header img {
+  width: 250px;
+}
+
+.tema-bg {
+  width: 100%;
+  background-image: url("../img/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.logo-revisao {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.logo-revisao img {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tema p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  margin-top: -30px;
+  padding-bottom: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+@media (max-width: 800px) {
+  .logo-revisao img {
+    width: 300px;
+  }
+  .header img {
+    width: 150px;
+    padding: 0px;
+  }
+  .tema p {
+    margin-top: 0px;
+    font-size: 1rem;
+    letter-spacing: 5px;
+  }
+}

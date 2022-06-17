@@ -1,0 +1,90 @@
+.beneficios-bg {
+  background-color: #fff;
+  color: #090236;
+  padding-bottom: 20px;
+}
+
+.beneficios-profes {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.beneficios-profes h2 {
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.profes-celular {
+  width: 500px;
+}
+
+.beneficios-lista {
+  margin-top: 30px;
+  margin-right: 100px;
+}
+
+.beneficios-lista ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
+  gap: 10px 40px;
+}
+
+.beneficios-lista p {
+  font-family: "Poppins";
+}
+
+.beneficios-lista img {
+  width: 50px;
+  padding-bottom: 10px;
+}
+
+.beneficios-trofeu {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding-top: 50px;
+  padding-right: 60px;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+.beneficios-trofeu img {
+width: 300px;
+}
+
+.beneficios-trofeu p {
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+}
+
+.beneficios-trofeu span {
+  font-weight: 800;
+}
+
+.beneficios-trofeu strong {
+  font-size: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .beneficios-profes {
+    grid-template-columns: 1fr;
+  }
+  .beneficios-lista ul {
+    grid-template-columns: repeat(auto-fit, minmax(120px, max-content));
+    gap: 20px 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .beneficios-profes {
+    grid-template-columns: 1fr;
+  }
+  .profes-celular {
+    width: 400px;
+    padding-top: 50px;
+  }
+  .beneficios-trofeu {
+    grid-template-columns: 1fr;
+  }
+}
